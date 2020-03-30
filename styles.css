@@ -1,0 +1,184 @@
+*,
+*::before,
+*::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.main {
+  position: absolute;
+  height: 65vh;
+  width: 100%;
+  background: #fff url(images/header.jpg) 0 0 no-repeat;
+  background-size: cover;
+  background-position: bottom center;
+}
+
+.navbar {
+  position: absolute;
+  width: 100%;
+  margin: 50px auto;
+  display: flex;
+  justify-content: center;
+}
+
+.navbar_wrapper {
+  border: #6c6c6c solid 1px;
+  width: 96%;
+  margin: 30vh, auto, 0, auto;
+  border-radius: 4px;
+  height: 35px;
+  background: linear-gradient(#848784 50%, #676967 50%);
+  display: flex;
+  justify-content: space-evenly;
+  align-content: center;
+}
+
+.fa-apple {
+  font-size: 20px;
+  margin-top: -2px;
+}
+
+.element_105 {
+  flex: 1 1 105px;
+  height: 100%;
+  border-right: #575757 solid 1px;
+  background: rgba(255, 255, 255, 0.1);
+  display: flex;
+  align-content: center;
+  justify-content: center;
+}
+
+.element_105:hover {
+  cursor: pointer;
+}
+
+.element_105 > a {
+  padding-top: 10px;
+  font-family: "Lucida Grande", "Lucida Sans", "Lucida Sans Regular",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+  text-decoration: none;
+  color: #fff;
+  font-weight: bold;
+  font-size: 13px;
+}
+
+.element_135 {
+  flex: 1 0.5 135px;
+  color: #fff;
+  display: flex;
+  align-content: center;
+  justify-content: center;
+}
+
+input {
+  margin-top: 2px;
+  background: rgba(255, 255, 255, 0.15);
+  border: #575757 1px solid;
+  width: 80%;
+  border-radius: 28px;
+}
+
+.glass {
+  position: relative;
+  right: -15%;
+  top: 7px;
+}
+
+.text_wrapper {
+  font-family: "Source Sans Pro", sans-serif;
+  color: #fff;
+  width: 70%;
+  margin: 13% auto;
+  text-align: center;
+}
+
+.large {
+  font-size: 4.3rem;
+}
+
+.medium {
+  font-size: 3.7rem;
+  font-weight: 500;
+  margin-bottom: 35px;
+}
+
+.small {
+  font-size: 2.5rem;
+  font-weight: 500;
+}
+
+.small > a {
+  color: #fff;
+}
+
+.iphones {
+  position: absolute;
+  margin-top: 65.1vh;
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-gap: 1px;
+  width: 100%;
+  height: 23vh;
+}
+
+.image1 {
+  background: #fff
+    url(https://archive.fo/UW4oR/4199f096e33e638ba9aeb6c6dec3a3e64794d02c.jpg) 0
+    0 no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+
+.image2 {
+  background: #fff
+    url(https://archive.fo/UW4oR/6032fe46fd16493ddda4e90ae45725962fc826b9.jpg) 0
+    0 no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+
+.image3 {
+  background: #fff
+    url(https://archive.fo/UW4oR/307a4ef1971d63d523c362cc3e49f923549fcefc.jpg) 0
+    0 no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+
+.image4 {
+  background: #fff
+    url(https://archive.fo/UW4oR/ec67ffeb084d1b9c83687205641697baa4122bee.jpg) 0
+    0 no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+
+.links {
+  text-decoration: none;
+  color: #0088cc;
+}
+
+.info {
+  font-size: 10px;
+  position: absolute;
+  font-family: "Lucida Grande", "Lucida Sans", "Lucida Sans Regular",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+  bottom: 0;
+  color: #6e6e6e;
+  width: 100%;
+  height: 10vh;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: 1fr 1fr;
+  padding: 25px;
+}
+
+.copyright {
+  grid-area: 2/1/3/2;
+}
+
+.list {
+  justify-self: flex-end;
+}
