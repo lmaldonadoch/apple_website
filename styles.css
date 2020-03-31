@@ -14,8 +14,7 @@ a,
 }
 
 .lucida {
-  font-family: "Lucida Grande", "Lucida Sans", "Lucida Sans Regular",
-    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+  font-family: "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
 }
 
 .main {
@@ -148,7 +147,7 @@ input {
 }
 
 .links {
-  color: #0088cc;
+  color: #08c;
 }
 
 .images {
